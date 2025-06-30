@@ -43,13 +43,13 @@ public class EnvioControllers {
     }
 
     // DELETE /envios/{id}
-    /*
+    
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminar(@PathVariable Integer id) {
         envioServicies.eliminar(id);
         return ResponseEntity.noContent().build();
     }
-    */
+    
 
     // PUT /envios/{id}/estado
     @PutMapping("/{id}/estado")
